@@ -1,0 +1,11 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.menu h2 {
+    margin: 10px;
+   
+}

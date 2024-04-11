@@ -1,0 +1,29 @@
+
+nav{
+    display: flex;
+    justify-content: end;
+    margin-right: 60px;
+}
+
+nav li{
+    display: inline-block; 
+}
+
+nav li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    cursor: default;
+}
+
+.dropdownMenu{
+    position: absolute;
+    display: none;
+}
+
+.dropdown:hover .dropdownMenu{
+    display: block;
+}
